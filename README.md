@@ -44,6 +44,11 @@ http://cloud-images.ubuntu.com/focal/current/
 passwd
 ```
 
+# SSH into the VM
+```shell
+ssh ubuntu@localhost -p 5022
+```
+
 # Reference
 https://wiki.ubuntu.com/ARM64/QEMU
 https://futurewei-cloud.github.io/ARM-Datacenter/qemu/how-to-launch-aarch64-vm/
